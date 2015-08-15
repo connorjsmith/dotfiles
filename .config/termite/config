@@ -4,7 +4,7 @@ clickable_url = true
 
 font = Source Code Pro for Powerline 10
 
-browser = firefox
+browser = google-chrome
 [colors]
 
 foreground      = #98d1ce
