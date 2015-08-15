@@ -1,0 +1,20 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+eval $(dircolors ~/.dircolors)
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+alias ls='ls --color=auto'
+alias chrome='google-chrome'
+alias vim='nvim'
+alias lock='i3lock -c 000000'
+
+export EDITOR=/usr/bin/nvim
