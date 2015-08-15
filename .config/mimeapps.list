@@ -1,0 +1,7 @@
+[Default Applications]
+text/x-python=userapp-vim-R7X62X.desktop
+application/vnd.adobe.flash.movie=firefox.desktop
+
+[Added Associations]
+text/x-python=userapp-vim-R7X62X.desktop;
+application/vnd.adobe.flash.movie=firefox.desktop;
