@@ -1,0 +1,1 @@
+/home/connor/.zprezto/runcoms/zshrc
