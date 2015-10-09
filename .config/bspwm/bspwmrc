@@ -12,8 +12,8 @@ bspc config focus_follows_mouse true
 bspc config normal_border_color	none
 bspc config auto_cancel 	true
 
-bspc monitor HDMI2 -d I II III
-bspc monitor eDP1 -d IV V VI
+bspc monitor eDP1 -d I II III
+bspc monitor HDMI2 -d IV V VI
 
 bspc rule -a Gimp desktop=^8 follow=on floating=on
 bspc rule -a Chromium desktop=^2
@@ -21,6 +21,8 @@ bspc rule -a mplayer2 floating=on
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
+#fix java apps (Intellij)
+wmname LG3D
 # fix multimonitor setups
 ~/.config/bspwm/window_layout.sh
 # fix power settings

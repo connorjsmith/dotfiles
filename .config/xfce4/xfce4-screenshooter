@@ -1,0 +1,8 @@
+delay=1
+region=3
+action=1
+show_mouse=1
+screenshot_dir=file:/home/connor/Pictures
+app=/usr/lib/x86_64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display
+last_user=
+

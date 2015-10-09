@@ -17,6 +17,9 @@ super + b
 super + {shift + ,_}f
 	bspc window -t {floating,fullscreen}
 
+super + s
+	bspc window -t sticky
+
 super + {grave,Tab}
 	bspc {window,desktop} -f last
 
@@ -68,7 +71,7 @@ super + {_,shift + }{1-9,0}
 	bspc pointer -g focus
 
 super + button{1-3}
-	; bspc pointer -g {move,resize_side,resize_corner}
+	bspc pointer -g {move,resize_side,resize_corner}
 
 super + @button{1-3}
 	bspc pointer -u
@@ -79,7 +82,14 @@ XF86AudioMute
 	amixer -D pulse sset Master 0%
 XF86MonBrightness{Up,Down}
 	xbacklight {+,-}5%
-
+XF86AudioNext
+	mpc next
+XF86AudioPrev
+	mpc prev
+XF86AudioPlay
+	mpc toggle
+XF86AudioStop
+	mpc stop
 
 #
 # wm independent hotkeys
