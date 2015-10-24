@@ -47,11 +47,14 @@
     <property name="title_vertical_offset_inactive" type="empty"/>
     <property name="urgent_blink" type="empty"/>
     <property name="use_compositing" type="empty"/>
-    <property name="workspace_count" type="int" value="3"/>
+    <property name="workspace_count" type="int" value="6"/>
     <property name="workspace_names" type="array">
       <value type="string" value="Workspace 1"/>
       <value type="string" value="Workspace 2"/>
       <value type="string" value="Workspace 3"/>
+      <value type="string" value="IV"/>
+      <value type="string" value="V"/>
+      <value type="string" value="VI"/>
     </property>
     <property name="wrap_resistance" type="empty"/>
     <property name="wrap_windows" type="empty"/>

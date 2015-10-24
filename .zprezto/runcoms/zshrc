@@ -18,3 +18,6 @@ alias vim='nvim'
 alias lock='i3lock -c 000000'
 
 export EDITOR=/usr/bin/nvim
+
+export NVM_DIR="/home/connor/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

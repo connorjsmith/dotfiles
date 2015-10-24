@@ -11,6 +11,10 @@ super + w
 super + t
 	bspc desktop -l next
 
+# Toggle window gaps using super+g
+super + g
+	bspc config -d focused window_gap $(((`bspc config -d focused window_gap` + 20)%40))
+
 super + b
 	bspc desktop -B
 
@@ -75,6 +79,7 @@ super + button{1-3}
 
 super + @button{1-3}
 	bspc pointer -u
+
 # Media Keys
 XF86Audio{Raise,Lower}Volume
 	amixer -D pulse sset Master 5%{+,-}
