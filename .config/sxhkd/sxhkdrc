@@ -1,7 +1,8 @@
 #
 # bspwm hotkeys
 #
-
+bspc_window_gap=20
+export bspc_window_gap
 super + alt + Escape
 	bspc quit
 
