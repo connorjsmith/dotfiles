@@ -3,7 +3,7 @@
 #
 # Authors:
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
+
 
 # Source Prezto.
 eval $(dircolors ~/.dircolors)
@@ -18,7 +18,7 @@ alias vim='nvim'
 alias emacs='emacsclient -c'
 alias lock='i3lock -c 000000'
 
-export EDITOR=/usr/bin/emacs
+export EDITOR=/usr/bin/nvim
 
 export NVM_DIR="/home/connor/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
