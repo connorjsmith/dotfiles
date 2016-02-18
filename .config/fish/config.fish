@@ -16,3 +16,4 @@ setenv -x LESS_TERMCAP_us (set_color -o green)
 alias e="emacsclient -c -t"
 alias emacs="emacsclient -c"
 alias proc="ps -aux| grep"
+alias restart_wifi="sudo wifi off;sleep 1;sudo wifi on"
